@@ -1,3 +1,5 @@
+// Pequena alteração para forçar deploy
+
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen bg-white text-gray-800">
