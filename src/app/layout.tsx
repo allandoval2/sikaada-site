@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: 'Sikaada | Private Equity para Empresas de Mídia',
   description: 'Fundo de Private Equity focado em mídia, com tíquete inteligente e participação estratégica. Investimos em operação e expansão.',
   icons: {
-    icon: '/sikaada-logo.svg', 
+    icon: '/sikaada-logo(1).svg', 
   },
   openGraph: {
     title: 'Sikaada | Private Equity para Empresas de Mídia',
