@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import type { Metadata } from 'next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,9 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Sikaada | Private Equity para Empresas de Mídia',
   description: 'Fundo de Private Equity focado em mídia, com tíquete inteligente e participação estratégica. Investimos em operação e expansão.',
+  icons: {
+    icon: '/sikaada-logo.svg', 
+  },
   openGraph: {
     title: 'Sikaada | Private Equity para Empresas de Mídia',
     description: 'Fundo de Private Equity focado em mídia, com tíquete inteligente e participação estratégica.',
